@@ -121,10 +121,7 @@ function App() {
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
             />
-           
-  
-  
-
+            <button>Search</button>
           </div>
         </form>
         {temp ? (
@@ -161,4 +158,3 @@ function App() {
 }
 
 export default App;
-
