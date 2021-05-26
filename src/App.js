@@ -121,19 +121,7 @@ function App() {
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
             />
-            class LoggingButton extends React.Component {
-   function handleClick() {
-    
-  }
-
-}render() {
-    // Cette syntaxe nous assure que `this` est bien lié dans la méthode handleClick
-}return ( 
-      <button onClick={() => this.handleClick()}>
-        search
-      </button>
-      );
-    
+           
   
   
 
